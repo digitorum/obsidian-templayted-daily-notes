@@ -3,7 +3,7 @@
 	"name": "Templayted Daily Notes",
 	"version": "1.0.0",
 	"minAppVersion": "0.15.0",
-	"description": "Allow to create templayted daily note in specific folder",
+	"description": "Adds the ability to create daily notes with a specified template according to the described settings",
 	"author": "digitorum",
 	"authorUrl": "https://github.com/digitorum",
 	"isDesktopOnly": false

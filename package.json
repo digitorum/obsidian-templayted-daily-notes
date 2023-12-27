@@ -1,7 +1,7 @@
 {
 	"name": "templayted-daily-notes",
 	"version": "1.0.0",
-	"description": "Allow to create templayted daily note in specific folder",
+	"description": "Adds the ability to create daily notes with a specified template according to the described settings",
 	"main": "main.js",
 	"scripts": {
 		"dev": "node esbuild.config.mjs",
@@ -10,7 +10,7 @@
 	},
 	"keywords": [],
 	"author": "digitorum",
-	"license": "MIT",
+	"license": "UNLICENSED",
 	"devDependencies": {
 		"@types/node": "^16.11.6",
 		"@typescript-eslint/eslint-plugin": "5.29.0",
