@@ -26,9 +26,11 @@ export class SettingsEditRibbonModal extends Modal {
     this.model = Object.assign({}, model)
     this.vaultvo = new VaultValueObject(plugin.app.vault)
 
-    this.titleEl.innerText = this.model.hint
-      ? this.l18n.get('settings-edit-ribbon-modal:title-edit', { name: this.model.hint })
-      : this.l18n.get('settings-edit-ribbon-modal:title-create')
+    this.titleEl.createDiv({
+      text: this.model.hint
+        ? this.l18n.get('settings-edit-ribbon-modal:title-edit', { name: this.model.hint })
+        : this.l18n.get('settings-edit-ribbon-modal:title-create')
+    })
   }
 
   private async initIconField(content: HTMLElement) {
@@ -44,6 +46,7 @@ export class SettingsEditRibbonModal extends Modal {
       })
       .setDisabled(false)
 
+    // static text, no vulnerability
     setting.descEl.innerHTML = this.l18n.get('settings-edit-ribbon-modal:icon-field-description-html')
   }
 

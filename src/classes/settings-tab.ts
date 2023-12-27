@@ -28,9 +28,11 @@ export class SettingsTab extends PluginSettingTab {
 
     root.empty()
 
-    root.createEl('p', { text: this.l18n.get('settings-tab:description') })
+    root.createEl('h1', { text: this.l18n.get('settings-tab:title') })
 
-    root.createEl('h3', { text: this.l18n.get('settings-tab:title') })
+    root.createEl('p', { text: this.l18n.get('settings-tab:description'), cls: 'templayted-daily-notes__settings-attention' })
+
+    root.createEl('h3', { text: this.l18n.get('settings-tab:list-title') })
 
     settings
       .ribbons
@@ -39,11 +41,13 @@ export class SettingsTab extends PluginSettingTab {
 
         setting
           .infoEl
-          .innerHTML = this.l18n.get('settings-tab:ribbon-value-html', {
-            icon: value.icon,
-            hint: value.hint,
-            folder: value.folder,
-            template: value.template || '-'
+          .createDiv({
+            text: this.l18n.get('settings-tab:ribbon-value', {
+              icon: value.icon,
+              hint: value.hint,
+              folder: value.folder,
+              template: value.template || '-'
+            })
           })
 
         setting
