@@ -32,8 +32,6 @@ export class SettingsTab extends PluginSettingTab {
 
     root.createEl('p', { text: this.l18n.get('settings-tab:description'), cls: 'templayted-daily-notes__settings-attention' })
 
-    root.createEl('h3', { text: this.l18n.get('settings-tab:list-title') })
-
     settings
       .ribbons
       .forEach((value) => {

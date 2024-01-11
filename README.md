@@ -1,4 +1,4 @@
-### Templayted daily notes
+### Templated daily notes
 
 Adds the ability to create notes with a specified template according to the described settings.
 

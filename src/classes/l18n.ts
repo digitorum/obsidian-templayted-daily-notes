@@ -15,9 +15,8 @@ const texts: Record<string, string> = {
   'settings-tab:button-delete': 'Delete',
   'settings-tab:button-edit': 'Edit',
   'settings-tab:description': 'To be able to create rules, you must specify a folder with templates. Please check your application settings before proceeding.',
-  'settings-tab:list-title': 'Rules list',
   'settings-tab:ribbon-value': 'Ribbon icon "{{icon}}" with hint "{{hint}}" for create note in folder "{{folder}}" with template "{{template}}"',
-  'settings-tab:title': 'Templated daily notes settings'
+  'settings-tab:title': 'Templated daily notes rules'
 }
 
 export class L18n {

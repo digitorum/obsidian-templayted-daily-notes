@@ -1,5 +1,5 @@
 {
-	"name": "templayted-daily-notes",
+	"name": "templated-daily-notes",
 	"version": "1.0.0",
 	"description": "Adds the ability to create daily notes with a specified template according to the described settings",
 	"main": "main.js",
