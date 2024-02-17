@@ -1,7 +1,7 @@
 {
 	"id": "templated-daily-notes",
 	"name": "Templated daily notes",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"minAppVersion": "0.15.0",
 	"description": "Adds the ability to create daily notes with a specified template according to the described settings",
 	"author": "digitorum",
