@@ -10,7 +10,7 @@ import { SettingsTab } from './classes/settings-tab'
 import { SettingsValueObject } from './classes/settings-value-object'
 import { VaultValueObject } from './classes/vault-value-object'
 
-export default class RibbonsPlugin extends Plugin {
+export default class TemplatedDailyNotesPlugin extends Plugin {
 
   private settings: SettingsValueObject
   private vaultvo: VaultValueObject
